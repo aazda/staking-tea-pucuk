@@ -1,6 +1,8 @@
 import { client } from "./client";
 import { defineChain } from 'thirdweb';
 import { ConnectButton } from "thirdweb/react";
+import { StakeToken } from "../../components/Stake";
+
 
 export default function Home() {
   return (
@@ -18,6 +20,7 @@ export default function Home() {
           client={client}
           chain={defineChain(93384)}
         />
+        <StakeToken />
       </div>
     </div>
   );
