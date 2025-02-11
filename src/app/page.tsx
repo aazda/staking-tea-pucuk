@@ -7,7 +7,7 @@ import { StakeToken } from "../../components/Stake";
 export default function Home() {
   return (
     <div style={{
-      backgroundColor: "black",
+      backgroundColor: "#0a0711",
       display: "flex",
       flexDirection: "column",
       alignItems: "center",
@@ -24,7 +24,7 @@ export default function Home() {
         />
         <StakeToken />
       <h4 style={{ margin: "10px" , color: "#98ff99" }}>Don't have $PUCUK ?</h4>
-      <h4 style={{ color: "#0000FF" }}> <a href="https://pucuk.vercel.app/" target="_blank">{"\>> Claim Here! <<"}</a></h4>
+      <h3 style={{ color: "#0000FF" }}> <a href="https://pucuk.vercel.app/" target="_blank">{"\>> Claim Here! <<"}</a></h3>
       </div>
     </div>
   );

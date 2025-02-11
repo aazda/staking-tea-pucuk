@@ -75,11 +75,11 @@ export const StakeToken = () => {
                     padding: "40px",
                     borderRadius: "10px",
                 }}>
-                    <h1 style={{
+                    <p style={{
                                 padding: "10px",
                                 borderRadius: "5px",
-                                color: "#98ff99",
-                            }}>Staking $PUCUK </h1>
+                                color: "#b89e14",
+                            }}>© 2025 Built with ❤️ by Aazda </p>
                     {/* <ConnectButton 
                         client={client}
                         chain={defineChain(93384)}
