@@ -75,10 +75,15 @@ export const StakeToken = () => {
                     padding: "40px",
                     borderRadius: "10px",
                 }}>
-                    <ConnectButton 
+                    <h1 style={{
+                                padding: "10px",
+                                borderRadius: "5px",
+                                color: "#98ff99",
+                            }}>Staking $PUCUK </h1>
+                    {/* <ConnectButton 
                         client={client}
                         chain={defineChain(93384)}
-                    />
+                    /> */}
                     <div style={{
                         display: "flex",
                         flexDirection: "column",
@@ -93,7 +98,7 @@ export const StakeToken = () => {
                                 borderRadius: "5px",
                                 marginRight: "5px",
                                 color: "#FFFFFF",
-                            }}>Staking Token: {truncate(toEther(stakingTokenBalance!),2)}</p>
+                            }}>Balance Token: {truncate(toEther(stakingTokenBalance!),2)}</p>
                         )}
                         {loadingRewardTokenBalance ? (
                             <p>Loading...</p>
@@ -277,7 +282,7 @@ export const StakeToken = () => {
                             display: "flex",
                             justifyContent: "center",
                             alignItems: "center",
-                            color: "#151515",
+                            color: "#FFFFFF",
                         }}>
                             <div style={{
                                 position: "relative",
@@ -303,7 +308,7 @@ export const StakeToken = () => {
                                         setIsWithdrawing(false)
                                     }}
                                 >X</button>
-                                <h3>Withraw</h3>
+                                <h3>Withdraw to your wallet</h3>
                                 <input 
                                     type="number" 
                                     placeholder="0.0"
