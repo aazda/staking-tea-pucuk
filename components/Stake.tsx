@@ -71,7 +71,7 @@ export const StakeToken = () => {
         <div>
             {account && (
                 <div style={{
-                    backgroundColor: "#151515",
+                    backgroundColor: "#171717",
                     padding: "40px",
                     borderRadius: "10px",
                 }}>
