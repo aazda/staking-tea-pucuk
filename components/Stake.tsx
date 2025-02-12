@@ -98,7 +98,7 @@ export const StakeToken = () => {
                                 borderRadius: "5px",
                                 marginRight: "5px",
                                 color: "#FFFFFF",
-                            }}>Balance Token: {truncate(toEther(stakingTokenBalance!),2)}</p>
+                            }}>Balance PUCUK: {truncate(toEther(stakingTokenBalance!),2)}</p>
                         )}
                         {loadingRewardTokenBalance ? (
                             <p>Loading...</p>
@@ -107,7 +107,7 @@ export const StakeToken = () => {
                                 padding: "10px",
                                 borderRadius: "5px",
                                 color: "#FFFFFF",
-                            }}>Reward Token: {truncate(toEther(rewardTokenBalance!),2)}</p>
+                            }}>Balance TPUCUK: {truncate(toEther(rewardTokenBalance!),2)}</p>
                         )}
                     </div>
                     
@@ -148,12 +148,12 @@ export const StakeToken = () => {
                                 padding: "10px",
                                 borderRadius: "5px",
                                 color: "#FFFFFF",
-                                }}> Balance Staked: {truncate(toEther(stakeInfo[0]).toString(),2)}</p>
+                                }}> PUCUK Staked: {truncate(toEther(stakeInfo[0]).toString(),2)}</p>
                                 <p style={{
                                 padding: "10px",
                                 borderRadius: "5px",
                                 color: "#FFFFFF",
-                                }}> Reward Balance: {truncate(toEther(stakeInfo[1]).toString(),2)}</p>
+                                }}> Reward TPUCUK: {truncate(toEther(stakeInfo[1]).toString(),2)}</p>
                                 <TransactionButton
                                     transaction={() => (
                                         prepareContractCall({
@@ -170,7 +170,7 @@ export const StakeToken = () => {
                                         padding: "10px",
                                         borderRadius: "5px",
                                         backgroundColor: "#98ff99",    
-                                    }}> Claim Rewards</TransactionButton>
+                                    }}> Claim TPUCUK</TransactionButton>
                             </div>
                         </>
                     )}

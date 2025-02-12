@@ -15,7 +15,7 @@ export default function Home() {
       height: "100vh",
       width: "100vw",
     }}>
-      <h1 style={{ color: "#98ff99" }}>Stake Your tea $PUCUK</h1>
+      <h1 style={{ color: "#98ff99" }}>Stake Your $PUCUK & Get $TPUCUK</h1>
       <h3 style={{ margin: "10px" , color: "#98ff99" }}>"Hodl, Stake, Profit – Seize Your Financial Future!"</h3>
       <div style={{ textAlign: "center" }}>
         <ConnectButton
