@@ -141,7 +141,7 @@ export const StakeToken = () => {
                                         cursor: "pointer",
                                     }}
                                     onClick={() => setIsWithdrawing(true)}
-                                >Withdraw</button>
+                                >Unstake</button>
                             </div>
                             <div>
                                 <p style={{
