@@ -153,7 +153,7 @@ export const StakeToken = () => {
                                 padding: "10px",
                                 borderRadius: "5px",
                                 color: "#FFFFFF",
-                                }}> Reward TPUCUK: {truncate(toEther(stakeInfo[1]).toString(),2)}</p>
+                                }}> TPUCUK Reward: {truncate(toEther(stakeInfo[1]).toString(),2)}</p>
                                 <TransactionButton
                                     transaction={() => (
                                         prepareContractCall({
