@@ -308,7 +308,7 @@ export const StakeToken = () => {
                                         setIsWithdrawing(false)
                                     }}
                                 >X</button>
-                                <h3>Withdraw</h3>
+                                <h3>Unstake</h3>
                                 <input 
                                     type="number" 
                                     placeholder="0.0"
@@ -341,7 +341,7 @@ export const StakeToken = () => {
                                         margin: "10px 0",
                                         backgroundColor: "#98ff99",
                                     }}
-                                >Withdraw</TransactionButton>
+                                >Unstake</TransactionButton>
                             </div>
                         </div>
                     )}
