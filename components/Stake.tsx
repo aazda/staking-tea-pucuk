@@ -308,7 +308,7 @@ export const StakeToken = () => {
                                         setIsWithdrawing(false)
                                     }}
                                 >X</button>
-                                <h3>Withdraw to your wallet</h3>
+                                <h3>Withdraw</h3>
                                 <input 
                                     type="number" 
                                     placeholder="0.0"
